@@ -1,0 +1,24 @@
+ .input-wrapper {
+        position: relative;
+        display: inline-block;
+      }
+      input[type="search"] {
+        padding-right: 25px; /* cross icon এর জায়গা রাখবে */
+        width: 250px;
+        height: 30px;
+        font-size: 14px;
+      }
+      .clear-btn {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        font-size: 18px;
+        color: #888;
+        user-select: none;
+        display: none; /* ডিফল্ট লুকানো থাকবে */
+      }
+      .clear-btn:hover {
+        color: red;
+      }
